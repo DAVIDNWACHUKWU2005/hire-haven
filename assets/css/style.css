@@ -120,6 +120,7 @@ button:hover{
 }
 li{
     list-style: none;
+    color: #f5f5f5;
 }
 li:hover{
     color: rgb(95, 145, 219);
