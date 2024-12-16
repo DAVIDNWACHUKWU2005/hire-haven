@@ -204,24 +204,25 @@ header {
 .post-container {
     margin: 60px auto 30px auto;
     width: var(--app-post-width); 
-    padding: 15px;
+   height: 200px;
+   align-items: flex-start;
     background-color: var(--app-post-container-background-color); 
     border-radius: 4px;
     overflow: hidden;
     word-wrap: break-word;
-    box-sizing: border-box;    
+    box-sizing: border-box;   
+     
 }
 
 .post-text {
     height: 100px; 
     padding: 10px;
     background-color: var(--app-post-container-background-color); 
-    border-radius: 4px;
+    border-radius: 20px;
     resize: none;
-    margin-bottom: 17px;
     color: var(--app-font-color);
-    font-size: 16px;
-    width: 100%;
+    font-size: 30px;
+
 }
 
 .post-button {
@@ -231,48 +232,12 @@ header {
     font-size: 16px;
     font-weight: 600;
     background-color: #3498db; 
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
     width: 100px;
     text-align: center;
 }
 
-.post-controls {
-    padding: 10px;
-}
-
-.posts {
-    margin-bottom: 30px;
-    width: var(--app-post-width);
-}
-
-.post {
-    padding: 20px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 300;
-    background-color: var(--app-post-background-color);
-    border-radius: 4px;
-    color: var(--app-post-font-color);
-}
-
-.post-header {
-    height: 40px;
-}
-
-.post-content {
-    width: 100%;
-}
-
-.post-image {
-    width: 100%;
-
-    img {
-        border-radius: 4px;
-        width: 100%;
-        height: auto;
-    }
-}
 
 .post-profile {
     gap: 10px;
@@ -323,32 +288,119 @@ textarea{
     margin-right: 10px;
 }
 .profile-photo{
-    border-radius: 200px;
-   height: 100px;
-   margin-left: 30%;
+    border-radius:50%;
+   height: 160px;
+   justify-self: center;
 }
 .profile-container{
-    margin-top: 20px;
-   padding-top: 20px;
+    margin: 60px auto 30px auto;
     background-color: #23272a;
-    width:500px;
+    width:300px;
+    border-radius: 8px;
     height:500px;
-    align-items: center;
-  text-align: center;
+    justify-content: center;
+    text-align: center;
+  p{
+    font-size:20px;
+ font-weight: lighter;
+ color:#799fbe ;
+}
 
 }
 
 
 .followings{
-    height:500px;
+    height:620px;
     background-color: #23272a;
     margin-top:20px;
     padding:40px;
+    margin-bottom: 20px;
     border-left: #f1f1f1 10px;
     justify-content: center;
+    h2{
+        text-wrap: nowrap;
+        margin-bottom: 10px;
+    }
+    h4{
+        margin-top: 10px;
+        text-align: center;
+    }
 
     p{
         font-size:20px;
-        word-wrap: break-word;
+     font-weight: lighter;
+     color:#627585 ;
     }
+}
+.see-all{
+    color: #2993ff;
+   margin-top: 10px;
+
+}
+.random-container{
+    border-top:orange;
+    border-bottom: white;
+    border: 4px;
+
+    height: 30px;
+    width: 100%;
+}
+.random-photo{
+    border-radius: 50%;
+    width:50px;
+    margin-bottom: 20px;
+}
+.main{
+    flex: 1;
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 30px;
+
+}
+.hr{ border: 0;
+height: 1px;
+background-color: #ccc; 
+margin: 10px 0; 
+position: relative;}
+
+.profile-settings{
+    height:60px;
+    margin-bottom: 20px;
+    background-color: #1f2229;
+    margin-top: 20px;
+    padding:20px;
+    padding-bottom: 20px;
+    text-align: center;
+border-radius: 10px;
+}
+.profile-language{
+    font-weight: bold;
+}
+.profile-seperator{
+    width: 100%;
+}
+.sign-up{
+    background-color: #000000;
+    height:48px;
+    padding: 10px 20px;
+    color: var(--app-font-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    padding: 10px 20px;
+   
+}
+.title{
+    color:#ccc;
+   
+}
+.job-name{
+    border: #627585 1px solid;
+    border-left: 0px;
+    border-right: 0px;
 }

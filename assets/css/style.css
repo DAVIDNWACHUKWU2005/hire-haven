@@ -75,6 +75,12 @@ img{
     width: 90%;
     height: 100svh;
 }
+.red{
+    color: red;
+}
+.hidden{
+    display: none;
+}
 .name{
 color:rgb(95, 145, 219);
 margin-left: 50px;
