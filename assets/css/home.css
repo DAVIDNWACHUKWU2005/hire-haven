@@ -300,6 +300,7 @@ textarea{
     height:700px;
     justify-content: center;
     text-align: center;
+    padding:20px;
   p{
     font-size:20px;
  font-weight: lighter;
@@ -403,4 +404,22 @@ border-radius: 10px;
     border: #627585 1px solid;
     border-left: 0px;
     border-right: 0px;
+}
+
+.listing{
+    height:500px;
+    background-color: #23272a;
+    padding: 10px;
+    p{
+        font-size: 20px;
+    }
+    hr{
+        width:100%;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+   h1{
+     color:#799fbe ;
+   }
 }
