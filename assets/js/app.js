@@ -8,7 +8,7 @@ const nameElements = selectAll('.random-container h3');
 const jobElements = selectAll('.random-container .job'); 
 const imageElements = selectAll('.random-container img'); 
 
-listen('load', window, () => {
+listen(window, 'load', () => {
     getRandomUsers();
 });
 
