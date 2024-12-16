@@ -1,7 +1,8 @@
 # Fake Job Website
 
-A modern, dark-themed platform designed to connect workers and employers. The website enables job seekers and companies to connect and find the right opportunities. With a focus on user experience and accessibility, this platform makes job searching and recruitment easier and more efficient.
+A modern, dark-themed platform designed to connect workers and employers. The website enables job seekers and employers to connect and find the right opportunities. With a focus on user experience by the best form of simplicity, this platform makes job searching and recruitment easier and more efficient.
 
+![base-page](./assets/imgs/base-page.jpg)
 ## Features
 
 - **Dark Theme:** Sleek, modern design with a focus on dark mode for a comfortable user experience.
